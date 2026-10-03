@@ -1,8 +1,8 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "TechnoLogy",
-    "password": "HaseebJi786",
+    "username": "ffmaster2",
+    "password": "Hello12",
     "type": "offline"
   },
   "server": {
@@ -20,7 +20,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "HaseebJi786"
+      "password": "Hello12"
     },
     "anti-afk": {
       "enabled": false,
@@ -31,9 +31,9 @@
       "repeat": true,
       "repeat-delay": 60,
       "messages": [
-        "/login HaseebJi786",
+        "",
         "/server lifesteal",
-        "/tpa Haseeb3"
+        "/warp afk"
       ]
     },
     "chat-log": true,
@@ -82,6 +82,6 @@
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
