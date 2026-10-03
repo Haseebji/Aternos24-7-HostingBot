@@ -1,0 +1,87 @@
+{
+  "name": "AFK Bot",
+  "bot-account": {
+    "username": "TechnoLogy",
+    "password": "HaseebJi786",
+    "type": "offline"
+  },
+  "server": {
+    "ip": "play.rawsmp.fun",
+    "port": 23461,
+    "version": "1.21.1",
+    "try-creative": false
+  },
+  "position": {
+    "enabled": true,
+    "x": 0,
+    "y": 100,
+    "z": 0
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "HaseebJi786"
+    },
+    "anti-afk": {
+      "enabled": false,
+      "sneak": false
+    },
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 60,
+      "messages": [
+        "/login HaseebJi786",
+        "/server lifesteal",
+        "/tpa Haseeb3"
+      ]
+    },
+    "chat-log": true,
+    "auto-reconnect": false,
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 120000
+  },
+  "movement": {
+    "enabled": false,
+    "circle-walk": {
+      "enabled": true,
+      "radius": 4,
+      "speed": 3000
+    },
+    "look-around": {
+      "enabled": false,
+      "interval": 5000
+    },
+    "random-jump": {
+      "enabled": false,
+      "interval": 10000
+    }
+  },
+  "modules": {
+    "avoidMobs": true,
+    "combat": true,
+    "beds": false,
+    "chat": true,
+    "console-commands": true
+  },
+  "combat": {
+    "attack-mobs": true,
+    "auto-eat": true
+  },
+  "beds": {
+    "pick-up-day": false,
+    "place-night": false
+  },
+  "discord": {
+    "enabled": false,
+    "webhookUrl": "",
+    "events": {
+      "connect": true,
+      "disconnect": true,
+      "chat": false
+    }
+  },
+  "chat": {
+    "respond": true
+  }
+}
